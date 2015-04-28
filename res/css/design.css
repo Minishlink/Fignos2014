@@ -1,0 +1,98 @@
+@font-face
+{
+	font-family: "fignos";
+	src: url('../font.ttf');
+}
+
+html, body 
+{
+	height: 100%;
+	margin: 0;
+	background: black url("../images/bg.png") center bottom fixed no-repeat; /* bg.png ok */
+	background-size:100% auto;
+	color:white;
+	font-family: "fignos", Helvetica, Arial, sans-serif;
+}
+
+a
+{
+	color:white;
+}
+
+a img
+{
+	border: none;
+}
+
+#global 
+{
+	min-height: 100%;
+	margin:0 auto;
+	padding: 0 1%;
+	position: relative;
+}
+
+#content
+{
+	position: absolute;
+	top:3%;
+	left:0;
+	right:0;
+}
+
+#date
+{
+	
+	text-align:center;
+	font-size:2em;
+	font-style:normal;
+}
+
+#liensite
+{
+	
+	text-align:center;
+	font-style:normal;
+}
+
+#logo
+{
+		display: block;
+		text-align:center;
+		cursor:pointer;
+}
+
+@media screen and (min-width: 700px)  /* ordi */
+{ 
+	img.logo
+	{
+		width:15%;
+		height:auto;
+	}
+}
+
+@media screen and (max-width: 700px)  /* mobile */
+{ 
+	img.logo
+	{
+		width:10%;
+		height:auto;
+	}
+}
+
+#video
+{
+	text-align:center;
+}
+
+#footer
+{
+	position:absolute;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	top:2%;
+	
+	text-align:center;	
+	color:black;
+}
